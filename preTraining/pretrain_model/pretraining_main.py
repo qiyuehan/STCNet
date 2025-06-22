@@ -17,7 +17,7 @@ parser.add_argument('--model', type=str, required=False, default='FITS',
 
 # data loader
 parser.add_argument('--data_class', type=str, required=False, default='ETTh', help='dataset type')
-parser.add_argument('--root_path', type=str, default=r'C:\Users\11848\Desktop\STCNet\dataset\\', help='root path of the data file')
+parser.add_argument('--root_path', type=str, default=r.\dataset\', help='root path of the data file')
 parser.add_argument('--data_path', type=str, default='ETTh1.csv', help='data file')
 parser.add_argument('--target', type=str, default='OT', help='target feature in S or MS task')
 parser.add_argument('--freq', type=str, default='h',
